@@ -1,0 +1,28 @@
+# OS / editor
+.DS_Store
+Thumbs.db
+.idea/
+.vscode/
+*.swp
+
+# Never publish secrets
+.env
+.env.*
+
+# Working material
+/analysis/
+/screenshots/
+/_run-logs/
+*.log
+
+# Environments / build
+venv/
+.venv/
+node_modules/
+__pycache__/
+*.pyc
+
+# Data
+*.db
+*.sqlite
+*.sqlite3
